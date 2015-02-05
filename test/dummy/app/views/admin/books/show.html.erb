@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @admin_book.name %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @admin_book.desc %>
+</p>
+
+<p>
+  <strong>Publish at:</strong>
+  <%= @admin_book.publish_at %>
+</p>
+
+<%= link_to 'Edit', edit_admin_book_path(@admin_book) %> |
+<%= link_to 'Back', admin_books_path %>

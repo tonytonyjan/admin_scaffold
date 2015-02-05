@@ -1,0 +1,29 @@
+<%= form_for(@admin_book) do |f| %>
+  <% if @admin_book.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@admin_book.errors.count, "error") %> prohibited this admin_book from being saved:</h2>
+
+      <ul>
+      <% @admin_book.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :desc %><br>
+    <%= f.text_area :desc %>
+  </div>
+  <div class="field">
+    <%= f.label :publish_at %><br>
+    <%= f.date_select :publish_at %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
