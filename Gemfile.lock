@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    adminscaffold (1.0.0)
-      rails (~> 4.2.0)
+    adminscaffold (1.0.1)
+      rails
 
 GEM
   remote: https://rubygems.org/
