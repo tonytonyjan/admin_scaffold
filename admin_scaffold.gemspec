@@ -5,7 +5,7 @@ require "admin_scaffold/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "admin_scaffold"
+  s.name        = "adminscaffold"
   s.version     = AdminScaffold::VERSION
   s.authors     = ["Jian Weihang"]
   s.email       = ["tonytonyjan@gmail.com"]

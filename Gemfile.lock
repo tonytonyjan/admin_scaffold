@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    admin_scaffold (0.0.1)
+    adminscaffold (0.0.1)
       rails (~> 4.2.0)
 
 GEM
@@ -122,7 +122,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  admin_scaffold!
+  adminscaffold!
   jquery-rails
   pg
   turbolinks
