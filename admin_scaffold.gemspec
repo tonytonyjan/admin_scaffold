@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.version     = AdminScaffold::VERSION
   s.authors     = ["Jian Weihang"]
   s.email       = ["tonytonyjan@gmail.com"]
-  s.homepage    = ""
-  s.summary     = "admin scaffold."
+  s.homepage    = "https://github.com/tonytonyjan/admin_scaffold"
+  s.summary     = "admin scaffold"
   s.description = "admin scaffold"
   s.license     = "MIT"
 
